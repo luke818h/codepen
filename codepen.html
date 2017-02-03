@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=Arsenal|Hind|Quicksand" rel="stylesheet">
+  <title>Document</title>
+</head>
+<style media="screen">
+  .clearfix {
+    margin: 0 auto;
+    width: 60%;
+  }
+
+  body {
+    font-family: Arsenal;
+  }
+
+  footer {
+    margin-top: 5px;
+    font-size: .7em;
+    text-align: center;
+  }
+
+  p em {
+    font-family: Quicksand;
+  }
+
+  .navbar {
+    padding: 8px 0 8px 0;
+    background-color: #42AFDD;
+  }
+
+  .navbar-default .navbar-brand {
+    color: #000;
+    font-family: Hind;
+  }
+
+  .navbar-default .navbar-nav>li>a {
+    font-size: 16px;
+    color: #000;
+  }
+
+  #what-created {
+    margin-top: 3em;
+  }
+</style>
+
+<body>
+  <!--navbar-->
+  <nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container-fluid hidden-xs">
+      <div class="navbar-header">
+        <a class="navbar-brand" href="#">Where to go?</a>
+      </div>
+      <ul class="nav navbar-nav navbar-right">
+        <!-- <li class="active"><a href="#">Home</a></li> -->
+        <li><a href="#about">About me</a></li>
+        <li><a href="#what-created">What I've created</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!--Header-->
+  <div class="container-fluid">
+    <div class="jumbotron page-header text-center" id="about">
+      <h1>Luke's Portfolio</h1>
+      <p>A little about me</p>
+      <p><em>Hello, my name is Luke Henwood. I am a new and upcoming web developer. Creating and designing a layout for the web is a passion of mine. I would love to be able to take your ideas and put them in a beautiful and attractive layout for everyone to enjoy!</em>
+        <br>
+        <p><em>If you have any question or are interested in what I can do for you, please feel free to contact me.</em></p>
+    </div>
+  </div>
+
+  <!--Images of what I have created, all temporary-->
+  <div class="container-fluid" id="what-created">
+    <div class="row text-center slideanim">
+      <br>
+      <h1>What I've Created</h1>
+
+      <div class="col-sm-4">
+        <div class="thumbnail">
+          <img src="https://images.pexels.com/photos/7974/pexels-photo.jpg?h=350&auto=compress&cs=tinysrgb" alt="computer" width="400" height="300">
+          <p><strong>More coming soon</strong></p>
+        </div>
+      </div>
+
+      <div class="col-sm-4">
+        <div class="thumbnail">
+          <img src="https://images.pexels.com/photos/3129/laptop-notebook-grass-meadow.jpg?h=350&auto=compress" alt="computer" width="400" height="300">
+          <p><strong>More coming soon</strong></p>
+        </div>
+      </div>
+
+      <div class="col-sm-4">
+        <div class="thumbnail">
+          <img src="https://images.pexels.com/photos/75083/pexels-photo-75083.jpeg?h=350&auto=compress" alt="computer" width="400" height="300">
+          <p><strong>More coming soon</strong></p>
+        </div>
+      </div>
+    </div>
+
+    <div class="row text-center slideanim">
+      <div class="col-sm-4">
+        <div class="thumbnail">
+          <img src="https://images.pexels.com/photos/169573/pexels-photo-169573.jpeg?h=350&auto=compress" alt="computer" width="400" height="300">
+          <p><strong>More coming soon</strong></p>
+        </div>
+      </div>
+
+      <div class="col-sm-4">
+        <div class="thumbnail">
+          <img src="https://images.pexels.com/photos/89786/cup-of-coffee-laptop-office-macbook-89786.jpeg?h=350&auto=compress&cs=tinysrgb" alt="computer" width="400" height="300">
+          <p><strong>More coming soon</strong></p>
+        </div>
+      </div>
+
+      <div class="col-sm-4">
+        <div class="thumbnail">
+          <img src="https://images.pexels.com/photos/196655/pexels-photo-196655.jpeg?h=350&auto=compress" alt="computer" width="400" height="300">
+          <p><strong>More coming soon</strong></p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--End of What I created-->
+
+  <br>
+  <!--contact-->
+  <div class="container-fluid" id="contact">
+    <div class="text-center">
+      <h1>Contact Me</h1>
+
+      <p><span class="glyphicon glyphicon-envelope"></span> luke@something.com</p>
+      <a href="https://github.com/luke818h"><i class="fa fa-github fa-3x"></i></a>
+      <a href="https://www.linkedin.com/in/luke8h/"><i class="fa fa-linkedin-square fa-3x"></i></a>
+      <a href="http://codepen.io/luke8h/"><i class="fa fa-codepen fa-3x"></i></a>
+      <br>
+      <br>
+    </div>
+  </div>
+  <!-- End of Contact-->
+
+  <!-- Beginning of Form -->
+  <div class="container-fluid">
+    <div class="clearfix well text-center">
+      <p>For more information...</p>
+      <div class="col-sm-12 slideanim">
+        <div class="row">
+          <div class="col-sm-6 form-group">
+            <input class="form-control" id="name" name="name" placeholder="Name" type="text" required>
+          </div>
+          <div class="col-sm-6 form-group">
+            <input class="form-control" id="email" name="email" placeholder="Email" type="email" required>
+          </div>
+        </div>
+
+        <textarea class="form-control" id="comments" name="comments" placeholder="Comment" rows="5">
+       </textarea><br>
+
+        <div class="form-group">
+          <label for="human" class="col-sm-2 control-label">2+3 = ?</label>
+          <div class="col-sm-3">
+            <input type="text" class="form-control" id="human" name="human" placeholder="Your Answer">
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-sm-12 form-group">
+            <button class="btn btn-default pull-right" type="submit">Send</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- End of Form -->
+
+  <!-- footer -->
+  <div id="footer" class="text-center">
+    <p>This site was designed by Luke Henwood. Copyright &copy; 2017 All Rights Reserved.</p>
+  </div>
+
+</body>
+
+</html>
